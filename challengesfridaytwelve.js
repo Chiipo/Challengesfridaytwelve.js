@@ -1,4 +1,4 @@
-// challange 1 - Create program storing what you ate for breakfast,lunch and dinner
+// Challange 1 - Create program storing what you ate for breakfast,lunch and dinner
 
 const meals = {
     breakfast: "egg, sausage omelette" ,
@@ -11,7 +11,7 @@ console.log('Lunch: rice with chicken');
 console.log('Dinner: beef burger with chips');
 
 
-// challange 2 - Pass in 2 parameter called num for fizz,nuzz and fizzbuzz
+// Challange 2 - Pass in 2 parameter called num for fizz,nuzz and fizzbuzz
 
 const fizzBuzz = (num) => {
 if (typeof num !== 'number' || num <= 0) { 
@@ -32,7 +32,7 @@ console.log(fizzBuzz(15));
     
       
 
-// challange 3 - Pass 2 parameters called num1 & numb2
+// Challange 3 - Pass 2 parameters called num1 & numb2
 
 const processNumbers = (num1, num2) => {
 if (typeof num1 !== 'number' || typeof num2 !== 'number') {
@@ -49,7 +49,7 @@ console.log(processNumbers(6, 10));
 console.log(processNumbers(8,4 )); 
 
 
-// challange 4 - Generate six random numbers between one to fifty 
+// Challange 4 - Generate six random numbers between one to fifty 
 
 const generateRandomNumbers = () => {
 const randomNumbers = [];
@@ -61,7 +61,7 @@ randomNumbers.push(randomNumber);
 const randomNumbersArray= generateRandomNumbers();
 console.log(randomNumbersArray);
 
-// challange 5 - Create a loop to count from zero to nine the nine to zero 
+// Challange 5 - Create a loop to count from zero to nine the nine to zero 
 
 for (let i = 0; i < 10; i++) {
     console.log(i);
