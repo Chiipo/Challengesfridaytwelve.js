@@ -1,0 +1,77 @@
+
+Align-content: center
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #6b5c0927;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #070606;
+    text-align: center;
+    padding: 30px 25px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #8a7d7d;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #363336;
+    color: white;
+  }
+
+  <style>
+  <body{
+      margin: 0;
+      padding: 0;
+      background-color: beige;
+
+  }
+  .nav ul {
+      list-style: none;
+      background-color: #b2a3a3;
+      text-align: center;
+      padding: 0%;
+      margin: 0%;
+  }
+
+  .nav li {
+      display: inline-block;
+
+  }
+  .nav a {
+      text-decoration: solid;
+      color: rgb(0, 0, 0);
+      width: 100px;
+      display: block;
+      font-size: 17px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  }
+  .nav a:hover {
+      background-color: rgb(206, 187, 171);
+      transition: 0.10s;
+
+
+  }
+</style>
+
+  h1{
+    color:rgb(55, 208, 193);
+
+        font-size: 20px;          
+}
+heading
+h2{
+    color:rgb(186, 110, 29);
+
+        font-size: 20px;          
+}
